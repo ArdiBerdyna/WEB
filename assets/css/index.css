@@ -1,0 +1,380 @@
+
+#services .container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+#services .container p{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+#services .container h5{
+    display: inline;
+    
+}
+#services .container .cards{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(2,1fr);
+    grid-gap: 20px;
+    overflow: hidden;
+}
+#services .container .cards .card{
+    background-color: #f9f9ff;
+    border-radius: 5px;
+    border: 2px solid #f9f9ff;
+    padding: 5px;
+}
+#services i{
+    padding: 5px;
+}
+#services .card:hover  h5{
+    color: var(--yellow-color);
+    transition: 0.5s ease-in-out;
+}
+#services .card:hover  {
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    box-shadow: -16px 12px 27px -5px rgba(0,0,0,0.7);}
+#services .card:hover  i{
+    color: var(--yellow-color);
+    transition: 0.5s ease-in-out;
+}
+#about .container{
+    display: flex; 
+    flex-flow:row wrap ; 
+}
+#about .container .content1 img{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 97%;
+}
+#about .container .content2 h1{
+    font-size: 30px;
+    
+}
+#about .container .content2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: flex-start;
+    padding-left:80px;
+    width: 40%;
+}
+#about .container .content2 p{
+    font-size:12px;
+    color: #b1aeae;
+}
+#about .container .content2 button{
+    font-size: 15px;
+    padding: 10px;
+}
+
+#cars .container{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+#cars .container .content1 h1{
+    font-size: 35px;
+}
+#cars .container .content1 p{
+    color: #b1aeae;
+    margin:0px;
+    text-align: center;
+}
+#cars .container .content2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 80px;
+}
+#cars .description{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+}
+#cars .description p{
+    font-size: 13px;
+    color: #b1aeae;
+}
+#cars .description ul{
+    list-style-type: none;
+    float: left;
+    padding: 0px;
+    font-size: 13px;
+    color: #b1aeae;
+}
+#cars .description .car-name{
+    font-size: 17px;
+    font-weight: 600;
+}
+#cars .car-name span{
+    display: inline;
+    float: right;
+    color: var(--yellow-color);
+    margin: 0px;
+}
+#cars .price{
+    font-size: 25px;
+}
+#cars .per-day{
+    font-size: 12px;
+}
+#cars .car{
+   overflow: hidden;
+}
+#cars button{
+    width: 50%;
+}
+#cars .dots{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#cars .dots .dot{ 
+    padding: 5px;
+    margin: 5px;  
+}
+#cars .dot1{
+    background-color: var(--yellow-color);
+}
+#cars .dot2,.dot3{
+    background-color: #b1aeae;
+}
+#cars .dot1,.dot2,.dot3:hover{
+    cursor: pointer;
+}
+#numbers .container{
+    padding: 100px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow-color);
+    text-align: center;
+}
+#numbers p{
+    font-size: 13px;
+    margin: 0px 10px;
+}
+#numbers h1{
+    font-size: 40px;
+    margin: 0px;
+}
+#features .container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+#features .content1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#features .content1 h1{
+    font-size: 35px;
+}
+#features .content1 p{
+    color: #b1aeae;
+    font-size: 15px
+}
+
+#features .content2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+#features .features-card{
+    background-color:#f9f9ff ;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+#features .features-card p{
+    font-size: 13px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+#features .features-card h6{
+    font-size: 15px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.yellow-star{
+    color: var(--yellow-color);
+}
+#features .features-card:hover{
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: -10px 9px 35px -5px rgba(0,0,0,0.87);
+    
+}
+#support {
+    background-image: url(/assets/images/section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#support .container{
+    background-color: #04091ea6;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+#support h1{
+    font-size: 25px;
+    margin: 10;
+}
+#support p{
+    width: 75%;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+#support button{
+    padding: 10px 20px;
+}
+#blog .container{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#blog .content1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+#blog .content1 p{
+    width: 75%;
+    font-size: 13px;
+}
+#blog .content1 h1{
+    font-size: 35px;
+    margin: 0px;
+}
+#blog .content2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+#blog .content2 .post{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width:min-content;
+    margin: 15px;
+    text-align: start;
+    overflow: hidden;
+}
+#blog .date{
+    font-size: 12px;
+    background-color: #04091e;
+    color: white;
+    padding: 10px 20px;
+} 
+#blog .post h6{
+    font-size: 17px;
+    margin: 0px;
+}
+#blog img{
+    overflow: hidden;
+}
+#blog .post p{
+    display: inline;
+    font-size: 11px;
+}
+#blog .interactions{
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#blog .post:hover h6{
+    cursor: pointer;
+    color: var(--yellow-color);
+}
+#blog .post:hover img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+footer .container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #04091e;
+    color: white;
+}
+footer .content1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+footer .menu{
+    padding: 30px 60px;
+}
+footer .menu a{
+    color: #b1aeae;
+    text-decoration: none;
+    font-size: 13px;
+}
+footer .menu a:hover{
+    border-bottom: 1px solid #b1aeae;
+    width: fit-content;
+}
+footer .socials i:hover{
+    color: var(--yellow-color);
+    cursor: pointer;
+}
+footer a{
+    display: block;
+}
+footer .menu form{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: max-content;
+}
+footer .menu form input{
+    width: min-content;
+    margin:0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+footer .menu form submit{
+    background-color: var(--yellow-color);
+    height:100%;
+    width: max-content;
+    padding: 5px;
+    margin: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.content {
+   
+    
+    background-size: 500px;
+    background-repeat: repeat -x;
+}
