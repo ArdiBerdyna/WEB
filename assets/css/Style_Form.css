@@ -1,0 +1,39 @@
+.contatiner{
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2 ) 0px 7px 29px 0px; 
+}
+
+.form-group{
+    margin-bottom: 20px;
+    
+   
+}
+ .form-group input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+    outline: none;
+}
+input:focus {
+    background-color: lightgray;
+  }
+
+.submit-gr input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(126, 161, 172);
+    cursor: pointer;
+}
+
+.submit-gr input:hover{
+    
+    background-color: rgb(66, 87, 93);
+    
+}
+
+

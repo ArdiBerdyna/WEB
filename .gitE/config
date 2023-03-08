@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/ArdiBerdyna/WEB.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "newbranch"]
+	remote = origin
+	merge = refs/heads/newbranch
+[branch "contact"]
+	remote = origin
+	merge = refs/heads/contact

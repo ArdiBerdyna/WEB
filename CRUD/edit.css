@@ -1,0 +1,34 @@
+#formulari {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    min-height: 300px;
+    border: 5px solid rgb(138 138 151);
+    margin: 0 auto;
+    color: black;
+    font-family: 'Segoe UI lighte', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+h3 {
+    text-align: center;
+
+}
+
+input,
+label {
+    width: 200px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+button {
+    margin: 15px;
+    width: 60px;
+}

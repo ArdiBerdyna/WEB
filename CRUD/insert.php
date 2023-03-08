@@ -1,3 +1,4 @@
+<link rel="icon" type="image/x-icon" href="../assets/images/logo.jpg"> 
 <?php
  session_start();
  if(!isset($_SESSION["role"])){
@@ -13,6 +14,7 @@
         $regj->setqmimi($_POST['qmimi']);
         
         $regj->insertoDhenat();
+       
     }
 
 ?>
@@ -20,22 +22,22 @@
 <!DOCTYPE html>
 <htm>
     <head>
-        <link rel="stylesheet" href ="mysingUPstyle.css" />
+        <link rel="stylesheet" href ="edit.css" />
         <title>Formulari i Regjistrimit</title>
     </head>
     <body>
         <div id="formulari">
-        <h3>Shto te dhenat ne Formularin e Regjistrimit</h3>
+        <h3>Add car in stock</h3>
             <form action='' method="POST">
-                <label>image</label>
+                <label>Image</label>
                 <input type="file" class="inp" name="image" placeholder="shto foto..."/>
-                <label>Emri</label>
+                <label>Name</label>
                 <input type="text" class="inp" name="emri" placeholder="shto emrin..."/>
-                <label>Lloji</label>
+                <label>Type</label>
                 <input type="text" class="inp" name="lloji" placeholder="shto llojin..."/>
-                <label>Qmimi</label>
+                <label>Price</label>
                 <input type="text" class="inp" name="qmimi" placeholder="shto qmimin..."/>
-                <button name='save'>RUAJ</button>
+                <button name='save'>Save</button>
             </form>
         </div>
     </body>

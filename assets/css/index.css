@@ -1,4 +1,5 @@
 
+
 #services .container{
     display: flex;
     flex-flow: column wrap;
@@ -7,10 +8,6 @@
 #services .container p{
     font-size: 13px;
     margin-bottom: 40px;
-}
-#services .container h5{
-    display: inline;
-    
 }
 #services .container .cards{
     padding: 20px 0px;
@@ -29,39 +26,39 @@
 #services i{
     padding: 5px;
 }
-#services .card:hover  h5{
+#services .card:hover  h5, i{
     color: var(--yellow-color);
     transition: 0.5s ease-in-out;
 }
-#services .card:hover  {
+#services .card:hover {
     cursor: pointer;
     transition: 0.5s ease-in-out;
     box-shadow: -16px 12px 27px -5px rgba(0,0,0,0.7);}
-#services .card:hover  i{
-    color: var(--yellow-color);
-    transition: 0.5s ease-in-out;
-}
+
+
+
 #about .container{
+    width: 2000px;
     display: flex; 
-    flex-flow:row wrap ; 
+    
+}
+
+
+#about .content2 {
+    width: 700px;
+   margin-left: 70px;
+   
 }
 #about .container .content1 img{
     border: 2px solid transparent;
-    border-radius: 10px;
-    width: 97%;
+    width: 650px;
+    margin-left: 50px;
 }
 #about .container .content2 h1{
     font-size: 30px;
     
 }
-#about .container .content2 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content:center;
-    align-items: flex-start;
-    padding-left:80px;
-    width: 40%;
-}
+
 #about .container .content2 p{
     font-size:12px;
     color: #b1aeae;
@@ -73,19 +70,26 @@
 
 #cars .container{
     display:flex;
-    flex-flow: column wrap;
+    width: 2000px;
     justify-content: flex-start;
     align-items:center;
     box-sizing: border-box;
 }
 
-#cars .container .content1 h1{
-    font-size: 35px;
+#cars img{
+    margin-left: 20px;
 }
-#cars .container .content1 p{
+
+.content1 h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.content1 p{
     color: #b1aeae;
     margin:0px;
     text-align: center;
+    padding-bottom: 40px;
 }
 #cars .container .content2{
     display: flex;
@@ -95,8 +99,9 @@
 #cars .description{
     display: flex;
     flex-flow: column wrap;
-    padding: 20px;
+    
 }
+
 #cars .description p{
     font-size: 13px;
     color: #b1aeae;
@@ -108,50 +113,25 @@
     font-size: 13px;
     color: #b1aeae;
 }
-#cars .description .car-name{
-    font-size: 17px;
-    font-weight: 600;
-}
+
 #cars .car-name span{
     display: inline;
     float: right;
     color: var(--yellow-color);
     margin: 0px;
+    font-size: 17px;
+    font-weight: 600;
 }
-#cars .price{
+#cars .price, .per-day{
     font-size: 25px;
 }
-#cars .per-day{
-    font-size: 12px;
-}
-#cars .car{
-   overflow: hidden;
-}
+
 #cars button{
-    width: 50%;
+    width: 450px;
 }
-#cars .dots{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-#cars .dots .dot{ 
-    padding: 5px;
-    margin: 5px;  
-}
-#cars .dot1{
-    background-color: var(--yellow-color);
-}
-#cars .dot2,.dot3{
-    background-color: #b1aeae;
-}
-#cars .dot1,.dot2,.dot3:hover{
-    cursor: pointer;
-}
+
 #numbers .container{
-    padding: 100px 0px;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background-color: var(--yellow-color);
@@ -165,18 +145,13 @@
     font-size: 40px;
     margin: 0px;
 }
+
 #features .container{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
-#features .content1 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 #features .content1 h1{
     font-size: 35px;
 }
@@ -209,7 +184,7 @@
     padding-bottom: 10px;
 }
 .yellow-star{
-    color: var(--yellow-color);
+    color: orange;
 }
 #features .features-card:hover{
     transition: 0.5s ease-in-out;
@@ -217,13 +192,9 @@
     box-shadow: -10px 9px 35px -5px rgba(0,0,0,0.87);
     
 }
-#support {
-    background-image: url(/assets/images/section.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 #support .container{
-    background-color: #04091ea6;
+    background-image: url(../images/section.jpg);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -244,6 +215,7 @@
 #support button{
     padding: 10px 20px;
 }
+
 #blog .container{
     display: flex;
     flex-flow:column wrap;
@@ -251,16 +223,12 @@
     align-items: center;
     text-align: center;
 }
-#blog .content1{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
+
 #blog .content1 p{
-    width: 75%;
     font-size: 13px;
+    
 }
+
 #blog .content1 h1{
     font-size: 35px;
     margin: 0px;
@@ -346,8 +314,10 @@ footer .socials i:hover{
     color: var(--yellow-color);
     cursor: pointer;
 }
-footer a{
+ a{
     display: block;
+    text-decoration: none;
+    color: #f9f9ff;
 }
 footer .menu form{
     display: flex;
@@ -361,20 +331,14 @@ footer .menu form input{
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
 }
-footer .menu form submit{
-    background-color: var(--yellow-color);
-    height:100%;
-    width: max-content;
-    padding: 5px;
-    margin: 0px;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
 
+
+.new_car{
+    width:  500px;
+    border: 1px solid red;
 }
 
-.content {
-   
-    
-    background-size: 500px;
-    background-repeat: repeat -x;
+.new_car img{
+    width: 350px;
+    height: 300px;
 }
