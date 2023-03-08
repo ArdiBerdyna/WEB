@@ -1,3 +1,4 @@
+<link rel="icon" type="image/x-icon" href="../assets/images/logo.jpg"> 
 <?php
     session_start();
     if(!isset($_SESSION["role"])){
@@ -11,40 +12,61 @@
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
     <head>
     <link rel="stylesheet" href ="displayStyle.css" />
-    <link rel="icon" type="image/x-icon" href="../assets/images/logo.jpg"> 
+   
+    
         <title>Shfaq dhenat</title>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="readContact.php">Contact Dashboard</a></li>
+                <li><a href="readReservatio.php">Reservation Dashboard</a></li>
+                <li><a href="../index.php">Home Page</a></li>
+                <li><a href="../logout.php">Log Out</a></li>
+            </ul>
+        </nav>
         <div id="a1">
             <header>
-                <h3>Ju lutem shtype per te regjistruar te dhenat ne Sistem</h3>
-                <a href="insert.php"><Button id='r'>Regjistrohu</Button></a>
+                <h3>Please press the button to add a car</h3>
+                <a href="insert.php"><Button id='r' name= "button">Add Car in Stock</Button></a>
+                <p><?php echo "Wellcome " . $_SESSION['role']; ?></p>
             </header>
-            <a href="../logout.php">log out</a>
+            
             <table>
             <hr>
-            <p>Lista e te dhenave:</p>
+            <p>List of data:</p>
                     <tr>
-                        <th>image</th>
-                        <th>emri</th>
-                        <th>lloji</th>
-                        <th>qmimi</th>
+                       
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Type</th>
+                        <th>Price</th>
                         <th>Action</th>
+                       
+                       
                     </tr>
                     <tr>
                         <?php
                             foreach($allDate as $key=>$value){ 
+                            
                         ?>
+                        
                         <td><?php echo $value['image']; ?></td>
                         <td><?php echo $value['emri']; ?></td>
                         <td><?php echo $value['lloji']; ?></td>
                         <td><?php echo $value['qmimi']; ?></td>
                         <td id='de'><a href="delete.php?id=<?php echo $value['id']?>"><button id="d">DELETE</button></a>
                         <a href="edit.php?id=<?php echo $value['id']?>"><button id='e'>EDIT</button></td></a>
+                       
+                       
+
+
+                        
                     </tr>
 
                     <?php

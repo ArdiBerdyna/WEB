@@ -30,7 +30,7 @@ $record=$dhenat->lexoDhenatSipasIDs($myId);
 <!DOCTYPE html>
 <htm>
     <head>
-        <link rel="stylesheet" href ="mysingUPstyle.css" />
+        <link rel="stylesheet" href ="edit.css" />
         <title>Formulari i Regjistrimit</title>
     </head>
     <body>

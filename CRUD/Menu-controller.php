@@ -125,8 +125,7 @@ class Car extends dbConnect {
 
 }
 
-// $test = new Studenti();
-// $test->insertoDhenat();
+
 
 
 

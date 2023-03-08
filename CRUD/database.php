@@ -10,7 +10,7 @@
             try{
                 $this->conn = new PDO("mysql:host=$this->host;dbname=$this->dbname", $this->dbusername, $this->password);
        
-               echo "lidhja u realizua me sukses";
+               //echo "lidhja u realizua me sukses";
          }catch(PDOException  $d){
                 echo "nuk mund te lidhj me sukses";
          }

@@ -1,8 +1,11 @@
 <?php
- session_start();
- if(!isset($_SESSION["role"])){
-     header("Location: ../login.php");
- }
+
+session_start();
+    if(!isset($_SESSION["role"])){
+        header("Location: ../login.php");
+    }
+
+ 
 
 require_once('Menu-controller.php');
 
@@ -14,3 +17,4 @@ if(isset($_GET['id'])){
     $dhenat->deleteDhenat($myid);
 }
 ?>
+
