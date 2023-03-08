@@ -72,9 +72,9 @@
 
          }
         ?>
-        <form action="registration.php" method="post">
+        <form action="registration.php" onsubmit="validateForm()" method="post" name="form" >
             <div class="form-group">
-                <input type="text"   id="name" name="fullname" placeholder ="Full name">
+                <input type="text"   id="name" name="fullname" placeholder ="Full name" >
             </div>
             <div class="form-group">
                 <input type="email"  id="email" name = "email" placeholder ="Email: ">
@@ -86,41 +86,45 @@
                 <input type="password" id="confirmpassword" name = "repeat_password" placeholder ="Repeat Password: ">
             </div>
             <div class="submit-gr">
-                <input type="submit" classs = "btn" value = "Register" name = "submit">
+                <input type="submit" classs = "btn" value = "Register" name = "submit" >
             </div>
         </form>
-        <div><p>Already registered <a href="login.php">Login here</a></p></div>
+        <div><p>Already registered <a href="login.php" >Login here</a></p></div>
 
     </div>
     <script>
-        
-        const name = document.getElementById("name");
-                const sname = document.getElementById("email");
-                const password = document.getElementById("password");
-                const confirmpassword = document.getElementById("confirmpassword");
-        
-        
-                function isEmpty(str) {
-                     return !str.trim().length;
-                }
-        
-                function validateForm(){
-                    if( isEmpty(name.value) ||isEmpty(sname.value) ||
-                        isEmpty(email.value) ||isEmpty(password.value) ||
-                        isEmpty(confirmpassword.value)){
-                        alert("All fields should have values!")
-                    }
-                    else if(password.value !== confirmpassword.value){
-                        alert("Passwords should match!")
-                    } 
-                    else if((password.value).length < 8 ){
-                        alert("Password should be longer than 8 characters!")
-                    }
-                    else if(!(email.value).match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)){
-                        alert("Email is not valid!")
-                    }
+         function validateForm() {
+   
+   var emri = document.forms["form"]["fullname"].value;
+   var email = document.forms["form"]["email"].value;
+   var password = document.forms["form"]["password"].value;
+   var confirm = document.forms["form"]["repeat_password"].value;
+   
+               
+   
+             
+       if (emri == "") {
+            alert( "Please enter a valid name!");
+               return false;
+       }
                 
-                }
+        if (email == "") {
+           alert( "Please enter a valid email!");
+               return false;
+       }
+                
+       if (password == "") {
+           alert( "Please enter a valid password!");
+               return false;
+       }
+              
+       if (confirm == "") {
+            alert( "Please enter a same password!");
+                  return false;
+       }
+   
+   return true;
+} 
     </script>
 </body>
 </html>
