@@ -17,7 +17,7 @@ $record=$dhenat->lexoDhenatSipasIDs($myId);
         $dhenat->setlloji($_POST['lloji']);
         $dhenat->setqmimi($_POST['qmimi']);
 
-         echo $dhenat->updateDhenat();
+        $dhenat->updateDhenat();
     echo 
     "<script>
         alert('dhenat jane PERDITSUAR me sukses');
