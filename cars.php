@@ -1,10 +1,11 @@
 
 <?php
+require_once 'includes/header.php';
 session_start();
 if (!isset($_SESSION["user"])){
     header("Location: login.php");
 } 
-    require_once 'includes/header.php';
+    
     require_once './CRUD/Menu-controller.php';
   require_once 'CRUD/reservation.php';
      if(isset($_POST['submit'])){
