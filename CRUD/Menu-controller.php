@@ -86,13 +86,10 @@ class Car extends dbConnect {
        $stm->execute();
        $rezultati = $stm->fetchAll(PDO::FETCH_ASSOC);
        return $rezultati;
-
-
     }
 
     public function deleteDhenat($id){
         $sql = "delete from cars where id = :id";
-
         $stm=$this->dbconn->prepare($sql);
         $stm->bindParam(':id', $id);
         $stm->execute();
@@ -114,7 +111,6 @@ class Car extends dbConnect {
         }
 
         public function lexoDhenatSipasIDs($id){
-           
             $sql='SELECT * FROM cars where id=:id';
             $stm=$this->dbconn->prepare($sql);
             $stm->execute([':id'=>$this->id=$id]);
@@ -124,14 +120,4 @@ class Car extends dbConnect {
     
 
 }
-
-
-
-
-
-
-
-
-
-
 ?>
