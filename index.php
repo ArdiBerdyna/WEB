@@ -192,7 +192,7 @@
                     <div class="post">
                         <img src="'.$all[$i]['image'].'" width="300px" height = "200px">
                       
-                        <h6>Addiction When Gamblign Becomes A Problem</h6>
+                        <h6>Best class of cars</h6>
                         <p>'.$all[$i]['emri'].' '.$all[$i]['lloji'].' '.$all[$i]['qmimi'].'</p>
                         <div class="interactions">
                             <p>
