@@ -19,7 +19,7 @@
     <link rel="stylesheet" href ="displayStyle.css" />
    
     
-        <title>Shfaq dhenat</title>
+        <title>Stock of car</title>
     </head>
     <body>
         <nav>
