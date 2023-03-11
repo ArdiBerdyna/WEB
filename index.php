@@ -110,7 +110,7 @@
             <div class="content2">
                 <div class="features-card-1 features-card">
                     <h6>Cody Hines</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="features-card-2 features-card">
                     <h6>Chad Herrera</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="features-card-1 features-card ">
                     <h6>Andre Gonzalez</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-regular fa-star "></i>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="features-card-1 features-card">
                     <h6>Jon Banks</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
@@ -146,7 +146,7 @@
                 </div>
                 <div class="features-card-1 features-card">
                     <h6>Landon Houston</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="features-card-1 features-card">
                     <h6>Nelle Wade</h6>
-                    <p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.</p>
+                    <p>Here you can find the best your dream car and you can feel a nice trip with our car</p>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
                     <i class="fa-solid fa-star yellow-star"></i>
