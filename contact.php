@@ -39,11 +39,17 @@
                 <li><a href="cars.php">CARS</a></li>
                 <li><a href="index.php">SERVICE</a></li>
                 <li><a href="contact.php" class="active">CONTACT</a></li>
+                
                 <?php
         session_start();
+    if(isset($_SESSION["user"])){
+      echo  '<li ><a class="nav-link" href="logout.php">LOG OUT</a></li>';
+    } else { echo ' <li ><a class="nav-link" href="login.php">LOG IN</a></li>';}
+       
         if(isset($_SESSION["role"])){
          echo '<li><a href="CRUD/display.php">DASHBOARD</a></li>';
     }
+   
     ?>
                 
             </ul>
