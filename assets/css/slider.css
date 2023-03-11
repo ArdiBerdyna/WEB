@@ -1,20 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(40, 40, 40);
-    box-sizing: border-box;
-    font-size: 1.6rem;
-} */
-
 .slider {
     max-width: 900px;
     margin: 20px auto;
@@ -57,5 +40,4 @@ body {
     transition: all .4s;
     transform: scale(1.05);
     background: rgba(56, 56, 56);
-    /* outline: 1px solid white; */
 }
