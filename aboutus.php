@@ -30,42 +30,42 @@
                         <i class="fa-regular fa-user"></i>
                     </span>
                     <h5>Expert Technicians</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>We have the Expert Technicians to check our car</p>
                 </div>                
                 <div class="card">
                     <span class="card-logo">
                         <i class="fa-solid fa-id-card"></i>
                     </span>
                     <h5>Professional Service</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>We have also a service that they have experienced since 1980</p>
                 </div>
                 <div class="card">
                     <span class="card-logo">
                         <i class="fa-solid fa-phone"></i>
                     </span>
                     <h5>Great Support</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>You can also call us for help whenever you want</p>
                 </div>
                 <div class="card">
                     <span class="card-logo">
                         <i class="fa-solid fa-rocket"></i>
                     </span>
                     <h5>Technical Skills</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>We offer service 24/7</p>
                 </div>
                 <div class="card">
                     <span class="card-logo">
                         <i class="fa-regular fa-gem"></i>
                     </span>
                     <h5>Highly Recomended</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>We have lots of customers that are very pleased</p>
                 </div>
                 <div class="card">
                     <span class="card-logo">
                         <i class="fa-regular fa-comment"></i>
                     </span>
                     <h5>Positive Reviews</h5>
-                    <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power</p>
+                    <p>You can see here all the reviews</p>
                 </div>
             </div>
         </div>
