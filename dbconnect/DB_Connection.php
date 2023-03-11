@@ -9,8 +9,7 @@
         public function connectDB(){
             try{
                 $this->conn = new PDO("mysql:host=$this->host;dbname=$this->dbname", $this->dbusername, $this->password);
-             // $this->conn = mysqli_connect($this->host, $this->dbusername, $this->password, $this->dbname);
-                echo "lidhja u realizua me sukses";
+           
          }catch(PDOException  $d){
                 echo "nuk mund te lidhj me sukses";
          }
